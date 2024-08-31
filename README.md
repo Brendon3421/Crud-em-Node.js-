@@ -22,4 +22,4 @@ Este projeto foi desenvolvido para gerenciar informações de clientes de forma 
 - Exclusão de registros de clientes.
 - Interface responsiva e moderna.
 
-![Alt text](post-sitema-node-js)
+![Alt text](post-sitema-node-js.png)
