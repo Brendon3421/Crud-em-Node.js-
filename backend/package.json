@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "start": "tsx src/server.ts --port 3333"
+    "start": "tsx src/server.ts --port 4444"
   },
   "keywords": [],
   "author": "",
