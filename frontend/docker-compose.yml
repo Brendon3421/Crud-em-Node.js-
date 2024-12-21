@@ -1,0 +1,17 @@
+version: '3'
+services:
+  backend:
+    build: ./backend  # caminho para o Dockerfile do backend
+    ports:
+      - "5000:3000"  # mapeia a porta do host para o contêiner
+    volumes:
+      - ./backend:/app  # sincronia do código entre o host e o contêiner
+    env_file: 
+      - ./backend/.env  # caminho para o arquivo .env do backend
+
+  frontend:
+    build: ./frontend  # caminho para o Dockerfile do frontend
+    ports:
+      - "3000:3000"  # mapeia a porta do host para o contêiner
+    volumes:
+      - ./frontend:/app  # sincronia do código entre o host e o contêiner
